@@ -1,0 +1,22 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    padding-right: 20px;
+    font-size: 1.4rem;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.list a:hover{
+    padding: 14px;
+    box-shadow: 4px 4px 3px 3px black;
+}
+@media (max-width: 380px) {
+    .list{
+        flex-direction: column;
+    }
+}

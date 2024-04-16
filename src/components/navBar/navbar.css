@@ -1,0 +1,12 @@
+.navbarWrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navbarWrapper{
+        flex-direction: column;
+    }
+}
