@@ -1,14 +1,17 @@
 import './App.css'
-import NavBar from './components/navBar/navBar';
-import ItemList from './components/itemList';
+import ItemList from './components/tienda/itemList';
+import Layout from './components/layoutHyF/layout';
+import ItemListContainer from './components/itemListContainer/itemListContainer';
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <ItemList />
-    </div>
+    <>
+      <Layout>
+        <ItemList />
+        <ItemListContainer />
+      </Layout>
+    </>
   )
 }
 
-export default App
+export default App;

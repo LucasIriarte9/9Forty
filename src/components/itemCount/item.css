@@ -1,0 +1,12 @@
+.itemCount{
+    display: flex;
+}
+.itemCount button, span{
+    margin: 7px;
+    font-size: large;
+}
+.itemCount button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

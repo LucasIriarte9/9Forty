@@ -1,7 +1,7 @@
 import "./navbar.css";
-import CartWidget from "./cartWidget";
-import Brand from './brand';
-import CategoryList from "./categoryList";
+import CartWidget from "./cartIcon/cartWidget";
+import Brand from "./tituloIcon/brand";
+import CategoryList from "./categoryList/categoryList";
 
 function NavBar() {
     return (
