@@ -30,3 +30,6 @@
         flex-direction: column;
     }
 }
+.list .active::after{
+    width: 100%;
+}

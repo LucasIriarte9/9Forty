@@ -1,18 +1,34 @@
 import "./list.css";
+import { NavLink } from "react-router-dom"
 
-function CategoryList()
-{
-    return(
+const Mis_rutas = [
+    {
+        path: "/productos",
+        label: "Productos",
+    },
+    {
+        path: "/gorras",
+        label: "Gorras",
+    },
+    {
+        path: "/remeras",
+        label: "Remeras",
+    },
+    {
+        path: "/zapatillas",
+        label: "Zapatillas",
+    },
+];
+function CategoryList() {
+    return (
         <ul className="list">
-            <li>
-                <a href="/#">Gorras</a>
-            </li>
-            <li>
-                <a href="/#">Remeras</a>
-            </li>
-            <li>
-                <a href="/#">Zapatillas</a>
-            </li>
+            {Mis_rutas.map((ruta) => (
+                <li>
+                    <NavLink
+                        className={({ isActive }) => (isActive ? "active" : "")}
+                        to={ruta.path}>{ruta.label}</NavLink>
+                </li>
+            ))}
         </ul>
     );
 }

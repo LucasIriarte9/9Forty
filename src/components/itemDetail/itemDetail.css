@@ -1,0 +1,10 @@
+.cont{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.itemCount{
+    display: flex;
+    justify-content: center;
+}

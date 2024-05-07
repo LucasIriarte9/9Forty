@@ -1,11 +1,12 @@
+import { firstMayu } from "../../kooks/firstMayu";
 import "./itemlist.css";
 
-function ItemList() {
+function ItemTienda({titulo}) {
     return (
         <div className="listh1">
-            <h1>Tienda</h1>
+            <h1>{firstMayu(titulo)}</h1>
         </div>
     );
 }
 
-export default ItemList;
+export default ItemTienda;
