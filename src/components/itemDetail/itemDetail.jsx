@@ -1,9 +1,13 @@
 import useCount from "../../kooks/useCount";
 import ItemCount from "../itemCount/itemCount";
 import "./itemDetail.css";
+import CartContext from "../../context/cart-context/cartContext";
+import { useContext } from "react";
 
 export const ItemDetail = ({ item }) => {
-  const { count, increment, decrement } = useCount(0);
+  const { count, increment, decrement, reset } = useCount(0);
+  const { carrito, addToCart } = useContext(CartContext);
+  console.log(carrito);
   return (
     <div className='cont'>
       <div className='conteiner-img'>
@@ -21,8 +25,12 @@ export const ItemDetail = ({ item }) => {
             increment={increment}
             decrement={decrement} />
         </div>
-        <div>
-          <button className="addCart" onClick={() => onAdd(item, count)}>Add to Cart</button>
+        <div className="add">
+          <button className="addCart"
+            onClick={() => { addToCart(item, count) }}
+            disabled={count === 0}>
+            Add to Cart
+          </button>
 
         </div>
       </div>

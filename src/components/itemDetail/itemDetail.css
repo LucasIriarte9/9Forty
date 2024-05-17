@@ -1,10 +1,16 @@
 .cont{
     align-items: center;
-    text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
 .itemCount{
+    display: flex;
+    justify-content: center;
+}
+.conteiner-img img{
+    border: 4px rgb(0,0,0);
+}
+.add{
     display: flex;
     justify-content: center;
 }

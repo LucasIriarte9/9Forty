@@ -1,0 +1,24 @@
+.product-conteiner-cart-img{
+    width: 150px;
+    height: 150px;
+}
+.carrito-conteiner-h1{
+    text-align: center
+}
+.product-conteiner-cart{
+    margin: 20px 50px;
+}
+.carrito-conteiner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-conteiner-cart{
+    display: flex;
+}
+.price-conteiner{
+    margin: 5% 20px;
+}
+.price-conteiner-pos{
+    position: sticky;
+    top: 10%;
+}
