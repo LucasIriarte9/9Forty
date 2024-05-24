@@ -1,0 +1,14 @@
+.conteiner-form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 40%;
+    gap: 5px;
+}
+
+.conteiner-form input{
+    border: 3px solid rgb(0,0,0);
+    border-radius: 20px;
+    padding: 10px 50px;
+    text-align: center;
+}
