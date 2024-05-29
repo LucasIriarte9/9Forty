@@ -5,7 +5,7 @@ import CartContext from "../../context/cart-context/cartContext";
 import { useContext } from "react";
 
 export const ItemDetail = ({ item }) => {
-  const { count, increment, decrement, reset } = useCount(0);
+  const { count, increment, decrement, reset } = useCount(1);
   const { carrito, addToCart } = useContext(CartContext);
   console.log(carrito);
   return (
@@ -28,7 +28,7 @@ export const ItemDetail = ({ item }) => {
         <div className="add">
           <button className="addCart"
             onClick={() => { addToCart(item, count) }}
-            disabled={count === 0}>
+            disabled= {count === 0}>
             Add to Cart
           </button>
 

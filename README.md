@@ -1,8 +1,15 @@
-# React + Vite
+# 9Forty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Proyecto E-Commerce  
 
-Currently, two official plugins are available:
+#### Este proyecto esta creado con Vite JS + React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pasos para levantar el proyecto :
+
+1. Ejecutar npm i para instalar las dependecias.
+2. Ejecutar npm run dev para levantar la aplicacion en modo desarrolo.
+3.
+
+
+###### Colaboradores
+- Lucas Iriarte.

@@ -12,3 +12,9 @@
     padding: 10px 50px;
     text-align: center;
 }
+
+.cont-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
