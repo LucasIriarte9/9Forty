@@ -20,10 +20,9 @@ export const Carrito = () => {
                             <div key={prod.id} className='product-conteiner-cart'>
                                 <img src={prod.img} alt={prod.name} className='product-conteiner-cart-img' />
                                 <div>
-                                    <h2>{prod.name}</h2>
-                                    <h3>Precio unitario: ${prod.price}</h3>
-                                    <h3>Precio por cantidad: ${prod.price * prod.count}</h3>
-                                    <h4>Cantidad a llevar:{prod.count}</h4>
+                                    <h2 className='suelto'>{prod.name}</h2>
+                                    <h3 className='hiddenE'>Precio unitario: ${prod.price}</h3>
+                                    <h3 className='suelto'>Precio por cantidad la cantidad de {prod.count}: ${prod.price * prod.count}</h3>
                                 </div>
                             </div>
 

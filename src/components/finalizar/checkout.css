@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 40%;
+    width: 60%;
     gap: 5px;
 }
 
@@ -17,4 +17,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media (max-width: 1420px) {
+    .conteiner-form{
+        width: 100%;
+    }
 }

@@ -25,7 +25,7 @@
 .list a:hover::after{
     width: 100%;
 }
-@media (max-width: 380px) {
+@media (max-width: 580px) {
     .list{
         flex-direction: column;
     }
